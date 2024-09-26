@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mance</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#page.html" onclick="window.location.href='page.html';" >Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#blog.html" onclick="window.location.href='blog.html';">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Hero Section -->
+    <header id="hero" class="text-white text-center">
+        <div class="background example text-container">
+            <div class="content background-text">
+                <h1 class="main">
+                    The Most <mark>Malleable</mark><br>
+                    and <mark>Devoted</mark><br>
+                    Engineer.
+                </h1>
+                <div class="button-container mt-4">
+        
+                    <button class="btn btn-primary round-button-two" onclick="window.location.href='page.html';">DISCOVER MORE</button>
+            
+                    <button class="btn btn-primary round-button"onclick="window.location.href='blog.html';">READ THE BLOG</button>
+                </div>
+            </div>
+        </div>
+    </header>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+
+    <!-- Sales Section -->
+    <section id="sales" class="container-fluid mt-5 pb-5">
+        <div class="text-center post-heading-text mb-4">
+            <h3>TECHNOLOGY AND INNOVATION</h3>
+            <p>Drive Business Growth by Hiring Adaptable, Innovative Talent</p>
+        </div>
+
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="Images/Margaret profile.png" alt="Technology and Aging in Place" onclick="window.location.href='techaging.html';"class="img-fluid">
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Startup" class="img-fluid">
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Tech Innovation" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="about" class="container-fluid mt-3 pb-5 bg-dark text-white">
+        <div class="slider-wrapper text-center">
+            <!-- First Slide -->
+            <blockquote class="blockquote blockquote--bordered blockquote--quoted" id="slide-1">
+                <p class="blockquote__text">"Sakyra was never afraid to jump into something new and learn new skills. While with Pindrop, she was diligent in her coordination."</p>
+                <p class="blockquote__text blockquote__text--credit">Kate Haslem Edwards</p>
+            </blockquote>
+
+            <!-- Second Slide -->
+            <blockquote class="blockquote blockquote--bordered blockquote--quoted" id="slide-2">
+                <p class="blockquote__text">"Exceptionally talented and consistently proficient are just a few of the phrases that come to mind when I think of Sakyra."</p>
+                <p class="blockquote__text blockquote__text--credit">Chanel Chapman</p>
+            </blockquote>
+
+            <!-- Third Slide -->
+            <blockquote class="blockquote blockquote--bordered blockquote--quoted" id="slide-3">
+                <p class="blockquote__text">"Sakyra is a hardworking and collaborative professional who is passionate about what she does, and is extremely intentional in her work."</p>
+                <p class="blockquote__text blockquote__text--credit">Maddison Loomis</p>
+            </blockquote>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav text-center mt-3">
+            <a href="#slide-1" class="slider-dot"></a>
+            <a href="#slide-2" class="slider-dot"></a>
+            <a href="#slide-3" class="slider-dot"></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-info" class="container-fluid mt-3 pb-5">
+        <div class="text-center post-heading-text">
+            <h3>WHO'S THAT GIRL?</h3>
+            <p>Empowering Diversity in Tech with Passion and Purpose</p>
+            <hr class="w-50 mx-auto pb-5">
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <img src="Images/about.png" class="img-fluid" alt="Portfolio Images">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h2>Miss "Phenomenal" Candidate</h2>
+                <hr>
+                <p>Sakyra is a visionary and ambitious aspiring engineer, embodying the essence of a “phenomenal woman” as described by poet Maya Angelou. She is pursuing a Bachelor’s degree in Computer Science at Georgia State University, building upon her Associate’s Degree. She transforms complex challenges into elegant, scalable innovations.</p>
+                <p>She has notable experience with industry leaders such as Check Point Technologies and Pindrop Solutions, where she excelled as a technical recruiter. This underscores her exceptional abilities and positions her as a dynamic force in the tech world.</p>
+                <a href="#" class="btn round-button-three btn-primary w-50" onclick="downloadResume()">RESUME</a>
+            </div>
+        </div>
+    </section>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');/* Overall padding remains for the rest of the site */
+
+
+/* Remove padding for header section */
+.hero {
+  padding: 0; /* Ensure no padding for the header section */
+}
+
+/* Remove padding for testimonial section */
+.testimonial-section {
+  padding: 0; /* Override the global padding for the testimonial section */
+}
+
+.background-text h1 {
+  font-size: 54px;
+  font-family: "akony-variable", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-variation-settings: 'ital' 0, 'opsz' 72, 'wght' 700;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-text-fill-color: #fff;
+  padding: 0; /* Remove extra padding within the background-text */
+}
+
+.sub-text {
+  align-items: center;
+  position: absolute;
+  top: 64%;
+  color: #fff;
+}
+
+mark {
+  background-color: #ffffff;
+  -webkit-text-fill-color: #000;
+  color: inherit;
+  padding: 1px;
+}
+
+.post-heading {
+  height: 100vh;
+  align-items: flex-start;
+}
+
+.post-heading-text p {
+    font-size: 48px;
+    font-family: "degular-variable",sans-serif;
+    font-style: normal;
+    font-weight:  700;
+    font-variation-settings: 'ital' 0, 'opsz' 72, 'wght' 700;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-align: center;
+  }
+
+/* .container {
+  padding: 2rem; */
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  max-width: 48rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.slider {
+  aspect-ratio: 16/9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0% 0% 0% 0.25);
+}
+
+blockquote {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+.blockquote__text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.blockquote__text--credit {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider-nav a {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+.blockquote.blockquote--quoted::before {
+  color: black;
+  font-size: 80px;
+  line-height: 0.1;
+  position: absolute;
+  left: -10px;
+}
+
+@keyframes slide-animation {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(0); }
+  38% { transform: translateX(-100%); }
+  66% { transform: translateX(-100%); }
+  71% { transform: translateX(-200%); }
+  100% { transform: translateX(-200%); }
+}
+
+.post-heading-text p {
+  font-size: 48px;
+  font-family: "degular-variable", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "degular-variable", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 60px;
+  color: red;
+}
+
+.navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
+  
+  
+  .navbar-dark .navbar-nav {
+      margin-left: auto;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+      padding-left: 20px;
+    left: 0;
+  }
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff
+    /* color: #ee99d4; */
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.background:before {
+  content: '';
+  position: absolute;
+  filter: brightness(0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(Images/street.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  z-index: -1;
+  transform: scaleX(2);
+}
+
+.background-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.round-button {
+  width:auto;
+  white-space: normal;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 70px;
+  line-height: 64px;
+  background: transparent;
+  padding: 0px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 3px solid #fff;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  transition: .15s background-color, .15s border-color, .15s color, .15s fill;
+  font-weight: 600;
+}
+
+.round-button-two {
+    width:auto;
+    white-space: normal;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 70px;
+    line-height: 64px;
+    background: transparent;
+    padding: 0px 30px;
+    border-radius: 50px;
+    -webkit-text-fill-color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 3px solid #fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    transition: .15s background-color, .15s border-color, .15s color, .15s fill;
+    font-weight: 600;
+  }
+
+  .round-button-three {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 70px;
+    line-height: 64px;
+    background: transparent;
+    padding: 0px 30px;
+    border-radius: 50px;
+    -webkit-text-fill-color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 3px solid #fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    transition: .15s background-color, .15s border-color, .15s color, .15s fill;
+    font-weight: 600;
+  }
+
+@media (max-width: 768px) {
+  .background-text h1 {
+    font-size: 36px;
+    padding: 60px;
+  }
+  .round-button {
+    width: 50px;
+    height: 50px;
+    font-size: 0.9rem;
+  }
+}
+
+</style>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- <p class="footer-quote">"The Place In Which I'll Fit Will Not Exist Until I Make It" - James Baldwin.</p> -->
+
+        <div class="p-3">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/sakyra-58b336124/" class="btn btn-link text-dark m-1"><i class="fab fa-linkedin"></i></a>
+            <!-- GitHub -->
+            <a href="https://github.com/smance00" class="btn btn-link text-dark m-1"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright: Sakyra Mance
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function downloadResume() {
+    window.location.href ='Sakyra%20Resume.pdf';
+}
+    </script>
+</html>
